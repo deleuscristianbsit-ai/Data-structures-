@@ -1,0 +1,20 @@
+// De Leus, Cristian H.
+// BSIT-2J
+// ACTIVITY 2
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Input values
+    string fullName = "Cristian H. De Leus";
+    string courseYearSec = "BSIT-2J";
+    string birthday = "December 2, 2005";
+    string motto = "Huse sagad, Pray to god, Thanks to god..";
+
+    // Output
+    cout << "Hi! I'm " << fullName << " of " << courseYearSec << ". Welcome to Data Structures and Algorithm!" << endl;
+    cout << "My Birthday is on " << birthday << ". and my motto/motivation in life is \"" << motto << "\"" << endl;
+
+    return 0;
+}
